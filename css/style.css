@@ -1,0 +1,401 @@
+body{
+    background: rgb(243, 241, 241);
+}
+p{
+    font-family: 'Work Sans', sans-serif ;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+.navbar a{
+    color: black;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#navber ul li a:hover{
+    color: #FF5200;
+    transition: all .5s;
+}
+.navbar i{
+    padding:15px;
+}
+#slider_section{
+    background: url(../img/slide-1.jpg);
+    height: 700px;
+    padding-top:150px;
+    position: relative;
+}
+#slider_section h2{
+    font-family:'Oswald', sans-serif ;
+    font-size: 50px;
+    
+    color: rgb(247, 242, 242);
+    padding:10px 0px;
+}
+#slider_section p{
+    color: aliceblue;
+    font-family:'Work Sans', sans-serif ;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0px;
+    
+}
+#slider_section button{
+    background: #FF5200;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 30px;
+}
+#slider_section button:hover{
+    background: rgb(31, 29, 29);
+}
+#slider_section .posetion{
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+}
+#fontwasome{
+    padding: 50px 0px;
+}
+#fontwasome .fonticon{
+   background: rgb(255, 255, 255);
+   padding: 15px;
+   text-align: center;
+   border-radius: 3px;
+   margin-top: 10px;
+}
+#fontwasome .fonticon i{
+    color: #FF5200;
+    font-size: 35px;
+    line-height: 60px;
+}
+#fontwasome .fonticon h2{
+    font-family:  'Oswald', sans-serif;
+    color: rgb(68, 66, 66);
+    font-size: 25px;
+}
+#fontwasome .fonticon p{
+    color: rgb(75, 73, 73);
+}
+#fontwasome .fonticon a{
+    display: block;
+    color: #FF5200;
+    font-weight: 500;
+
+}
+#fontwasome .fonticon a:hover{
+    text-decoration: none;
+}
+#fontwasome .fonticon a i{
+    font-size: 15px;
+    padding: 0px 10px;
+}
+#fontwasome .fonticon:hover{
+    background:#FF5200 ;
+    color: #fff;
+    transition:  0.5s;
+}
+#fontwasome .fonticon:hover a {
+    color: #fff;
+}
+#fontwasome .fonticon:hover i {
+    color: #fff;
+}
+#fontwasome .fonticon:hover p {
+    color: #fff;
+}
+#fontwasome .fonticon:hover h2 {
+    color: #fff;
+}
+#fontwasome .fantionnn{
+    background:#FF5200 ;
+    color: #fff;
+    margin-top: 10px;
+}
+#fontwasome .fantionnn p{
+    color: #fff;
+}
+#fontwasome .fantionnn i{
+    color: #fff;
+}
+#fontwasome .fantionnn a{
+    color: #fff;
+}
+#fontwasome .fantionnn h2{
+    color: #fff;
+}
+
+#workwitth .workour img{
+     
+    height: 400px;
+}
+#workwitth{
+    padding: 50px 0px;
+}
+.teams h1{
+    font-family: 'Oswald', sans-serif;
+}
+.teams p{
+    color: rgb(94, 88, 88);
+}
+#workwitth a{
+    color: rgb(43, 41, 41);
+    font-weight: 600;
+}
+#workwitth a i{
+    padding: 7px;
+}
+#workwitth a:hover{
+    color: #FF5200;
+    text-decoration: none;
+    transition: all .5s;
+}
+#workwitth button {
+    padding: 11px 45px ;
+    margin-top: 20px;
+    background: #FF5200;
+    color: #fff;
+    font-family:'Oswald', sans-serif;
+}
+#workwitth button:hover{
+    background: #000;
+    transition: all .5s;
+}
+#helmet{
+    background: url(../img/why-choose-us1.jpg);
+    height: 400px;
+    
+    
+    
+}
+.opacty{
+    background: rgba(20,10,0,0.6);
+    height: 100%;
+}
+#helmet .row {
+    padding: 100px 0px;
+}
+#helmet .happynes {
+    text-align: center;
+}
+#helmet .happynes i{
+    color: #fff;
+    font-size: 55px;
+    line-height: 65px;
+}
+#helmet .happynes h2{
+    font-size: 35px ;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    line-height: 60px;
+}
+#helmet .happynes h4{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 231, 231);
+}
+#More {
+    padding: 100px 0px;
+}
+#More .forme span{
+    height: 5px;
+    width: 50px;
+   
+}
+#More  h2{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    line-height: 50px;
+}
+#More .forme h2{
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    line-height: 60px;
+}
+#PricePlan .Mauris{
+    margin-left: 30%;
+}
+#PricePlan .Mauris h1{
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    line-height: 50px;
+}
+#PricePlan .advance h2{
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+#PricePlan .advance h1{
+    font-weight: 900;
+    font-size: 45px;
+
+}
+#PricePlan .advance i{
+    font-size: 25px;
+    padding: 10px 15px;
+    color: #FF5200;
+}
+#PricePlan .advance button{
+    font-size: 20px;
+    padding: 8px 30px;
+    background: #FF5200;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+}
+#PricePlan .advance button:hover{
+    background: #000;
+    transition: .5s;
+}
+#PricePlan .advance .col-4{
+    padding: 25px;
+    box-shadow: 3px 3px 15px #FF5200;
+    margin-top: 51px;
+    border-radius: 3px;
+    
+    
+}
+}
+#PricePlan {
+    padding: 100px 0px;
+    background: #fff;
+}
+#Checkout .latest{
+    background: rgb(29, 28, 28);
+}
+#Checkout .chakimg{
+    width: 600px;
+}
+#Checkout .latest{
+    padding: 60px;
+}
+#Checkout .latest h1{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+#Checkout .latest p{
+    color: rgb(231, 224, 224);
+}
+#Checkout .icon-bar h2{
+    display: inline;
+
+}
+#Checkout .icon-bar p{
+    display: inline;
+}
+#Checkout .icon-bar h2{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+#Checkout .icon-bar i{
+    font-size: 35px;
+    color:  #FF5200;
+    margin-top: 10px;
+}
+#OurTeam .Mauris{
+    margin-left: 30%;
+}
+#OurTeam .Mauris h1{
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    line-height: 50px;
+}
+#OurTeam h2{
+    font-weight: 800;
+    font-family:'Oswald', sans-serif;
+    line-height: 60px;
+}
+#OurTeam button{
+    background: #FF5200;
+    color: aliceblue;
+    font-family:'Oswald', sans-serif;
+    padding: 10px 35px;
+}
+#OurTeam button:hover{
+    background: #000;
+    transition: all .3s;
+}
+
+#OurBest .Mauris{
+    margin-left: 30%;
+}
+#OurBest .Mauris h1{
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    line-height: 50px;
+}
+#OurBest img:hover{
+    opacity: .5;
+}
+#OurBest .commant span{
+    line-height: 30px ;
+    color: rgb(199, 197, 197);
+}
+#OurBest .commant label{
+    height: 2px ;
+    width: 20px ;
+    background: #FF5200;
+    margin-top: 15px;
+}
+#OurBest .commant a{
+    color: rgb(24, 23, 23);
+    text-decoration: none;
+}
+#OurBest .commant a:hover{
+    color:#FF5200;
+    transition: .5s;
+}
+#OurBest .commant .lasta {
+    font-size: 30px;
+    font-family:'Oswald', sans-serif;
+    font-weight: 800;
+    line-height: 60px;
+}
+#OurBest .commant p{
+    color: rgb(150, 139, 139);
+}
+#OurBest .commant .topalst{
+    color: #FF5200;
+}
+#OurBest .commant .cooment{
+    padding: 15px;
+}
+#futtor .container{
+    background:#ff5200;
+    border-radius: 3px;
+}
+#futtor .footon h2{
+    color: rgba(255, 255, 255, 0.89);
+    font-weight: 800;
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+}
+#futtor .footon input{
+    padding: 10px 100px 10px 10px;
+    border: none;
+    border-radius: 20px 8px 20px 8px;
+    margin-top: 15px;
+}
+#futtor .footon button{
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 6px 15px 6px 15px;
+    padding: 10px 25px;
+    font:20px;
+    margin-top: -12px;
+}
+#futtor .footon span{
+    color: #fff;
+    
+}
+#futtor .footon i{
+    color: #fff;
+    padding: 10px;
+    border: 3px dotted #fff;
+    border-radius: 50%;
+    margin-left: 10px;
+}
